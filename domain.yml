@@ -1,0 +1,26 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- Q1
+- Q2
+- Q3
+- Q4
+- Q6
+- goodbye
+- affirm
+- deny
+responses:
+  utter_greet:
+  - text: Hello Sir , How may I help You ?
+  utter_goodbye:
+  - text: Bye
+actions:
+- utter_greet
+- utter_goodbye
+- q1ans
+- q2ans
+- q3ans
+- q4ans
+- q6ans
